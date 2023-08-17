@@ -1,7 +1,8 @@
 
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
-    color: var(--navyblue, #2E2F42);
+    font-family: 'Roboto' sans-serif;
+    color: var(--navyblue, #434455);
+    background-color: #FFFFFF;
 }
 ul {
     list-style: none;
@@ -17,7 +18,7 @@ header {
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
           
@@ -26,7 +27,7 @@ header {
 .studio {
     color: var(--navyblue, #2E2F42);
 }
-.menu {
+.menu, .menu1 {
     color: var(--navyblue, #2E2F42);
     text-decoration: none;
     font-size: 16px;
@@ -34,6 +35,9 @@ header {
     font-weight: 500;
     line-height: 1.5;
        
+}
+.menu1{
+    letter-spacing: 0.02em;
 }
     
 .menu:active {
@@ -47,32 +51,42 @@ header {
 .menu:focus {
     color: #404BBF;
 }
-
-.mail, .phone {
+.address {
+    font-style: normal;
+}
+.contacts {
     text-decoration: none;
     color: var(--slate, #434455);
      font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
+    letter-spacing: 0.02em;
         
 }
-.mail:hover,.phone:hover {
+.contacts:hover {
     color: #404BBF;
 }
-.mail:focus, .phone:focus {
+.contacts:focus {
     color: #404BBF;
 }
+
 .hero {
     background: var(--navyblue, #2E2F42);
+}
+.main-title {
     color: var(--white, #FFF);
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
+
+
+}
+    
           
         
-}
 .button {
     background: var(--iris, #4D5AE5);
     border-radius: 4px;
@@ -83,6 +97,8 @@ header {
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.04em;
     
           
 }
@@ -90,7 +106,9 @@ header {
     background: #404BBF;
     
 }
-
+.button:focus {
+    background-color: #404BBF;
+}
 .description {
     background: var(--white, #FFF);
 }
@@ -109,7 +127,7 @@ header {
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
-.team {
+.workers {
     background: var(--cloud, #F4F4FD);
 }
 .team-title {
@@ -117,7 +135,7 @@ header {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -145,7 +163,7 @@ header {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -163,15 +181,17 @@ header {
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
-footer {
+.bottom-page {
     background: var(--navyblue, #2E2F42);
+}
+.bottom-page .studio {
+    color: var(--cloud, #F4F4FD);
+    line-height: 1.17
+}
+.bottom-page-text {
     color: var(--cloud, #F4F4FD);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
-
-}
-footer .studio {
-    color: var(--cloud, #F4F4FD);
 }
